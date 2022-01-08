@@ -1,0 +1,58 @@
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slide_button
+{
+  background-color: #167c4f;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#slide_button:hover, #slide_button:active
+{
+  background-color: green;
+}
+
+.slider
+{
+    width:100%;
+}
+.sliders
+{
+    text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h3{
+    padding: 10px;
+}
+article{
+    text-align: justify;
+    padding: 10px;
+}
+#article_img
+{
+    float:right;
+    width:300px;
+    height:175px;
+    padding:5px;
+}
