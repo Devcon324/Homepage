@@ -86,6 +86,8 @@ footer
 .hobby_text
 {
     padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 #link:link, #link:visited 
 {
