@@ -75,3 +75,29 @@ footer
     text-align: center;
     vertical-align: text-bottom;
 }
+.Hobby_pic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 15px;
+}
+.hobby_text
+{
+    padding: 10px;
+}
+#link:link, #link:visited 
+{
+  background-color: #167c4f;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#link:hover, #link:active 
+{
+  background-color: green;
+}
