@@ -103,3 +103,9 @@ footer
 {
   background-color: green;
 }
+#text
+{
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
