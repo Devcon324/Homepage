@@ -1,7 +1,7 @@
 var slides = [];
-slides[0] = "Pictures/img1.jpg";
-slides[1] = "Pictures/img2.jpg";
-slides[2] = "Pictures/img3.jpg";
+slides[0] = "Pictures/PLsquat.jpg";
+slides[1] = "Pictures/PLbench.jpg";
+slides[2] = "Pictures/PLdeadlift.jpg";
 let i = 0;
 function next(){
 	i = i + 1;
