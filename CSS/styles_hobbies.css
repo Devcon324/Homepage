@@ -1,3 +1,26 @@
+#slide_button
+{
+  background-color: #167c4f;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#slide_button:hover, #slide_button:active
+{
+  background-color: green;
+}
+
+.slider
+{
+    width:100%;
+}
+.sliders
+{
+    text-align: center;
+}
 .Hobby_pic
 {
     display: block;
@@ -33,3 +56,4 @@
 {
   background-color: green;
 }
+
