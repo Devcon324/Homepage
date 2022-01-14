@@ -75,6 +75,16 @@ footer
     text-align: center;
     vertical-align: text-bottom;
 }
+.large_pic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 100%;
+    padding: 15px;
+    object-fit: cover;
+}
 .Hobby_pic
 {
     display: block;
