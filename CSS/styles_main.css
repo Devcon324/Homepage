@@ -85,6 +85,7 @@ footer
 }
 figcaption
 {
+    padding-top: 1px;
     padding-left: 15px;
     font-size: small;
 }
