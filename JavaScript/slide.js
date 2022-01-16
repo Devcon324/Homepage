@@ -10,7 +10,6 @@ function next(){
 		i = 0;
 	}
 	document.getElementById('slide').src = slides[i];
-//	document.getElementById('state').innerHTML = "next_i = " + i;
 	return i
 }
 
@@ -20,6 +19,5 @@ function prev(){
 		i = 2;
 	}
 	document.getElementById('slide').src = slides[i];
-//	document.getElementById('state').innerHTML = " prev_i = " + i;
 	return i;
 }
