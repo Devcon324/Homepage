@@ -4,6 +4,8 @@ slides[1] = "Pictures/PLbench.jpg";
 slides[2] = "Pictures/PLdeadlift.jpg";
 let i = 0;
 
+autoslide();
+
 function autoslide(){
 	for (i = 0; i = slides.length; i++){
 		if (i = slides.length){
