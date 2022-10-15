@@ -16,84 +16,73 @@
         <title>Hello, my name Devon!</title>
     </head>
 
-    <body>
+<body>
 
-        <div class="title">
-            <img src="Pictures/dev.png" id='profile' alt="Profile Picture"/>
-            <div>
-                <h1><b>Devon Knight</b></h1>
-                <h2><b>Pursuing Computer Science to Impact Health Through Technology</b></h2>
-                <address>This is an addresss bar, N/A for Privacy</address>
+<div id='buttons' class="col text-center">
+    
+
+    <div class="btn-group text-nowrap" role="group">
+        <a id= "active-btn" href="index.html" class="btn btn-secondary btn-lg" role="button">Home</a>
+        <a href="volunteering.html" class="btn btn-secondary btn-lg" role="button">Volunteering</a>
+        <a href="hobbies.html" class="btn btn-secondary btn-lg" role="button">Hobbies</a>
+
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="dropdown btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More!
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item btn-lg" target="_blank" href="https://github.com/Devcon324">GitHub</a>
             </div>
         </div>
-
-        <div id='buttons' class="col text-center">
-            <div class="btn-group text-nowrap" role="group">
-                <a id= "active-btn" href="index.html" class="btn btn-secondary btn-lg" role="button">Home</a>
-                <a href="volunteering.html" class="btn btn-secondary btn-lg" role="button">Volunteering</a>
-                <a href="hobbies.html" class="btn btn-secondary btn-lg" role="button">Hobbies</a>
-
-                <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="dropdown btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      More!
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item btn-lg" target="_blank" href="https://github.com/Devcon324">GitHub</a>
-                    </div>
-                </div>
-                    <form class="search" action="https://www.youtube.com/search" method"get">
-        			<input name="q" placeholder="Search Youtube!" type="search">
-        			<input type="submit" value="Search">
-		        </form>
-            </div>
-        </div>
-
-        
-        <div class="white-box">
-            <figure>
-                <img src="Pictures/codewp.jpg" class='large_pic' alt="Sample Picture of Code I made"/>
-                <figcaption>A bit of fun with C made by me</figcaption>
-            </figure>
-            
-            <div class='hobby_text'>
-                <h3><b>Welcome to my homepage!</b></h3>
-                <h5><b>This is one step towards learning Computer Science and Applying it Through Programming</b></h5>
-                <article>
-                    <p>I have always been interested in technology. This stemmed from playing on revolutionary video games on a beige IBM tower or the 2001 Xbox. In addition, my father being involved in back-end server communications technology definitely had a hand in my tech-savviness. However, I find myself more attuned to use my passion for technology and a fondness for medical science to impact the healthcare field.</p>
-
-                    <p>I initially pursued an undergraduate degree that developed into a focus on genetics, cancer, and immunology. Through a year long thesis project, I aided in the efforts of finding the genetic causes of a childhood leukemia which led to becoming a young author of published research. However, research is a task where critical thinking is necessary to push past failed perspectives and experiments.</p>
-
-                    <p>Finding myself running into experimental roadblocks, and a tower of dead cloned E. coli bacteria, I serendipitously found that I could take a more technological approach to my research. I discovered a Python program called PyMOL that could be used to predict and visualize the resulting changes in proteins structure that can occur during cancerous mutations in DNA. It was through reading documentation about PyMOL, learning how to use Linux, and applying these lessons to my research, it was during this challenge that I found that I am meant to take a technological perspective on positively impacting the healthcare of community.</p>
-
-                    <p>During the past couple years, I have self-assessed my strengths and interest through experimenting and learning computer science and programming. I have perused FreeCodeCamp’s YoutTube videos, Harvard’s CS50, W3School, and countless hours on StackOverflow. Through these, I am constantly learning more about C, HTML, JavaScript, CSS, Flask, Python, Unity, C# and so much more to come. It is this journey of life-long learning that I hope to supplement my life and career with computer science and my life-science background to drive an impact in the HealthTech space.</p>
-                </article>
+    </div>
+</div>
 
 
-                <a id='link' href="https://cs50.harvard.edu" target="_blank">Visit CS50: Introduction to Computer Science</a>
-            </div>
-            <article class='hobby_text'>
-                <p>
-                    This page will provide a brief yet detailed discussion about myself and some of the interesting things that I do. This website serves as a first-step project to understanding web pages. the intention is to start with a static webpage designed with HTML, CSS, and JavaScript. Use features from Bootstrap such as buttons and drop-down menus. Then, learn about Git and GitHub as a version control system to track and commit changes to this site.
-                </p>
-                <p>
-                    In the <b><i>Home</i></b> tab, you will see a few pictures of what I believe best defines who I am and what I am passionate about.
-                </p>
-                <p>
-                    In the <b><i>Volunteering</i></b> tab, I will list and describe all of my volunteer contributions to the communities I am part of and the activities I have done thus far which have crafted me into who I am today.
-                </p>
-                <p>
-                    In the <b><i>Hobbies</i></b> tab, I will do my very best to describe the unique hobbies I have maintained and picked-up throughout my childhood to today. some are niche, whereas some may be commonplace and well-known.
-                </p>
-                <p>
-                    Please feel free to click the buttons on the toolbar above to navigate to the pages mentioned!
-                </p>
-            </article>
-            
-        </div>
-    </body>
-    <Footer style="color:white; font-weight: bold;">
-        <p>Thanks for visiting!</p>
-        <p>I hope you enjoyed this page, it is the first one I have ever made!</p>
-    </Footer>
+<div class="white-box">
+    <figure>
+        <img src="Pictures/codewp.jpg" class='large_pic' alt="Sample Picture of Code I made"/>
+        <figcaption>A bit of fun with C made by me</figcaption>
+    </figure>
+    
+    <div class='hobby_text'>
+        <h3><b>Welcome to my homepage!</b></h3>
+        <h5><b>This is one step towards learning Computer Science and Applying it Through Programming</b></h5>
+        <article>
+            <p>I have always been interested in technology. This stemmed from playing on revolutionary video games on a beige IBM tower or the 2001 Xbox. In addition, my father being involved in back-end server communications technology definitely had a hand in my tech-savviness. However, I find myself more attuned to use my passion for technology and a fondness for medical science to impact the healthcare field.</p>
+
+            <p>I initially pursued an undergraduate degree that developed into a focus on genetics, cancer, and immunology. Through a year long thesis project, I aided in the efforts of finding the genetic causes of a childhood leukemia which led to becoming a young author of published research. However, research is a task where critical thinking is necessary to push past failed perspectives and experiments.</p>
+
+            <p>Finding myself running into experimental roadblocks, and a tower of dead cloned E. coli bacteria, I serendipitously found that I could take a more technological approach to my research. I discovered a Python program called PyMOL that could be used to predict and visualize the resulting changes in proteins structure that can occur during cancerous mutations in DNA. It was through reading documentation about PyMOL, learning how to use Linux, and applying these lessons to my research, it was during this challenge that I found that I am meant to take a technological perspective on positively impacting the healthcare of community.</p>
+
+            <p>During the past couple years, I have self-assessed my strengths and interest through experimenting and learning computer science and programming. I have perused FreeCodeCamp’s YoutTube videos, Harvard’s CS50, W3School, and countless hours on StackOverflow. Through these, I am constantly learning more about C, HTML, JavaScript, CSS, Flask, Python, Unity, C# and so much more to come. It is this journey of life-long learning that I hope to supplement my life and career with computer science and my life-science background to drive an impact in the HealthTech space.</p>
+        </article>
+
+
+        <a id='link' href="https://cs50.harvard.edu" target="_blank">Visit CS50: Introduction to Computer Science</a>
+    </div>
+    <article class='hobby_text'>
+        <p>
+            This page will provide a brief yet detailed discussion about myself and some of the interesting things that I do. This website serves as a first-step project to understanding web pages. the intention is to start with a static webpage designed with HTML, CSS, and JavaScript. Use features from Bootstrap such as buttons and drop-down menus. Then, learn about Git and GitHub as a version control system to track and commit changes to this site.
+        </p>
+        <p>
+            In the <b><i>Home</i></b> tab, you will see a few pictures of what I believe best defines who I am and what I am passionate about.
+        </p>
+        <p>
+            In the <b><i>Volunteering</i></b> tab, I will list and describe all of my volunteer contributions to the communities I am part of and the activities I have done thus far which have crafted me into who I am today.
+        </p>
+        <p>
+            In the <b><i>Hobbies</i></b> tab, I will do my very best to describe the unique hobbies I have maintained and picked-up throughout my childhood to today. some are niche, whereas some may be commonplace and well-known.
+        </p>
+        <p>
+            Please feel free to click the buttons on the toolbar above to navigate to the pages mentioned!
+        </p>
+    </article>
+    
+</div>
+</body>
+<Footer style="color:white; font-weight: bold;">
+    <p>Thanks for visiting!</p>
+    <p>I hope you enjoyed this page, it is the first one I have ever made!</p>
+</Footer>
 
 </html>
