@@ -11,11 +11,11 @@
 }
 body
 {
-    background-color: #3aafa9;
+    background-color: #242424;
 }
 .white-box
 {
-  background-color:#ffffff;
+  background-color:#585858;
   height:auto;
   width:950px;
   margin-left:auto;
@@ -24,16 +24,16 @@ body
 }
 #buttons
 {
-    background-color: #2B7A78;
+    background-color: #585858;
     display: inline-block;
 }
 .btn:hover
 {
-    background-color: #57BABB;
+    background-color: #5b5b5b;
 }
 #active-btn
 {
-    background-color: #57BABB;
+    background-color: #000000;
 }
 .dropdown-menu
 {
@@ -99,6 +99,7 @@ figcaption
 }
 .hobby_text
 {
+    color: white;
     padding: 10px;
     text-align: justify;
     text-justify: inter-word;
