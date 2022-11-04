@@ -15,6 +15,7 @@ body
 }
 .white-box
 {
+  color: white;
   background-color:#585858;
   height:auto;
   width:950px;
@@ -24,7 +25,7 @@ body
 }
 #buttons
 {
-    background-color: #585858;
+    background-color: #232323;
     display: inline-block;
 }
 .btn:hover
@@ -60,7 +61,7 @@ body
 }
 .btn-secondary, .dropdown, .dropdown-item
 {
-    background-color: #2B7A78;
+    background-color: #353535;
     color: #ffffff;
 }
 .search
