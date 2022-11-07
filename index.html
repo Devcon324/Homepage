@@ -1,95 +1,124 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-        <link href="CSS/styles_main.css" rel="stylesheet">
+    <!-- link to Google API for Roboto Font for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- bootstrap for navbar -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <!-- index specific cSS -->
+    <link rel="stylesheet" href="CSS/indexCSS/animate.css">
+    <link rel="stylesheet" href="CSS/indexCSS/navbar.css">
+    <link rel="stylesheet" href="CSS/indexCSS/index_sliders.css">
+    <link rel="stylesheet" href="CSS/indexCSS/index.css">
+    <link rel="stylesheet" href="CSS/indexCSS/backVideo.css">
+    <link rel="stylesheet" href="CSS/styles_main.css" >
         
         
-        <script src="JavaScript/slide.js"></script>
+    <script src="JavaScript/slide.js"></script>
 
-        <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
 
-        <title>Hello, my name Devon!</title>
-    </head>
+      <title>Devon Knight</title>
+  </head>
 
-    <body>
-
-        <div class="title">
-            <img src="Pictures/dev.png" id='profile' alt="Profile Picture"/>
-            <div>
-                <h1><b>Devon Knight</b></h1>
-                <h2><b>Software Engineering Student</b></h2>
-                <h3><b>University of Ottawa</b></h3>
-            </div>
+<body>
+    <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-light  bg-transparent fixed-top p-md-3">
+    <div class="container">
+        <a href="index.html" class="navbar-brand fw-bold">
+          <img src="Pictures\dev.png" alt="Profile Pic" 
+          width="75" height="75" class="d-inline-block align-text-top align:top">
+          <span style="color: rgb(79, 195, 247)">Devon Knight
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item">
+              <a href="HTML\productFeatures.html" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="HTML\roadmap.html" class="nav-link">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a href="HTML\pricing.html" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="HTML\team.html" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="HTML\faq.html" class="nav-link">FAQ</a>
+            </li>
         </div>
+    </div>
+  </nav>
 
-        <div id='buttons' class="col text-center">
-            <div class="btn-group text-nowrap" role="group">
-                <a id= "active-btn" href="index.html" class="btn btn-secondary btn-lg" role="button">Home</a>
-                <a href="volunteering.html" class="btn btn-secondary btn-lg" role="button">Volunteering</a>
-                <a href="hobbies.html" class="btn btn-secondary btn-lg" role="button">Hobbies</a>
-
-                <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="dropdown btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      More!
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item btn-lg" target="_blank" href="https://github.com/Devcon324">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="white-box">
-            <figure>
-                <img src="Pictures/codewp.jpg" class='large_pic' alt="Sample Picture of Code I made"/>
-                <figcaption style="color: white;">A bit of fun with C made by me</figcaption>
-            </figure>
-            
-            <div class='hobby_text'>
-                <h3><b>Welcome to my homepage!</b></h3>
-                <h5><b>This is one step towards learning Computer Science and Applying it Through Programming</b></h5>
-                <article>
-                    <p>I have always been interested in technology. This stemmed from playing on revolutionary video games on a beige IBM tower or the 2001 Xbox. In addition, my father being involved in back-end server communications technology definitely had a hand in my tech-savviness. However, I find myself more attuned to use my passion for technology and a fondness for medical science to impact the healthcare field.</p>
-
-                    <p>I initially pursued an undergraduate degree that developed into a focus on genetics, cancer, and immunology. Through a year long thesis project, I aided in the efforts of finding the genetic causes of a childhood leukemia which led to becoming a young author of published research. However, research is a task where critical thinking is necessary to push past failed perspectives and experiments.</p>
-
-                    <p>Finding myself running into experimental roadblocks, and a tower of dead cloned E. coli bacteria, I serendipitously found that I could take a more technological approach to my research. I discovered a Python program called PyMOL that could be used to predict and visualize the resulting changes in proteins structure that can occur during cancerous mutations in DNA. It was through reading documentation about PyMOL, learning how to use Linux, and applying these lessons to my research, it was during this challenge that I found that I am meant to take a technological perspective on positively impacting the healthcare of community.</p>
-
-                    <p>During the past couple years, I have self-assessed my strengths and interest through experimenting and learning computer science and programming. I have perused FreeCodeCamp’s YoutTube videos, Harvard’s CS50, W3School, and countless hours on StackOverflow. Through these, I am constantly learning more about C, HTML, JavaScript, CSS, Flask, Python, Unity, C# and so much more to come. It is this journey of life-long learning that I hope to supplement my life and career with computer science and my life-science background to drive an impact in the HealthTech space.</p>
-                </article>
+      
 
 
-                <a id='link' href="https://cs50.harvard.edu" target="_blank">Visit CS50: Introduction to Computer Science</a>
-            </div>
-            <article class='hobby_text'>
-                <p>
-                    This page will provide a brief yet detailed discussion about myself and some of the interesting things that I do. This website serves as a first-step project to understanding web pages. the intention is to start with a static webpage designed with HTML, CSS, and JavaScript. Use features from Bootstrap such as buttons and drop-down menus. Then, learn about Git and GitHub as a version control system to track and commit changes to this site.
-                </p>
-                <p>
-                    In the <b><i>Home</i></b> tab, you will see a few pictures of what I believe best defines who I am and what I am passionate about.
-                </p>
-                <p>
-                    In the <b><i>Volunteering</i></b> tab, I will list and describe all of my volunteer contributions to the communities I am part of and the activities I have done thus far which have crafted me into who I am today.
-                </p>
-                <p>
-                    In the <b><i>Hobbies</i></b> tab, I will do my very best to describe the unique hobbies I have maintained and picked-up throughout my childhood to today. some are niche, whereas some may be commonplace and well-known.
-                </p>
-                <p>
-                    Please feel free to click the buttons on the toolbar above to navigate to the pages mentioned!
-                </p>
-            </article>
-            
-        </div>
-    </body>
-    <Footer style="color:white; font-weight: bold;">
-        <p>Thanks for visiting!</p>
-        <p>I hope you enjoyed this page, it is the first one I have ever made!</p>
-    </Footer>
+      
+      <div class="white-box">
+          <figure>
+              <img src="Pictures/codewp.jpg" class='large_pic' alt="Sample Picture of Code I made"/>
+              <figcaption style="color: white;">A bit of fun with C made by me</figcaption>
+          </figure>
+          
+          <div class='hobby_text'>
+              <h3><b>Welcome to my homepage!</b></h3>
+              <h5><b>This is one step towards learning Computer Science and Applying it Through Programming</b></h5>
+              <article>
+                  <p>I have always been interested in technology. This stemmed from playing on revolutionary video games on a beige IBM tower or the 2001 Xbox. In addition, my father being involved in back-end server communications technology definitely had a hand in my tech-savviness. However, I find myself more attuned to use my passion for technology and a fondness for medical science to impact the healthcare field.</p>
+
+                  <p>I initially pursued an undergraduate degree that developed into a focus on genetics, cancer, and immunology. Through a year long thesis project, I aided in the efforts of finding the genetic causes of a childhood leukemia which led to becoming a young author of published research. However, research is a task where critical thinking is necessary to push past failed perspectives and experiments.</p>
+
+                  <p>Finding myself running into experimental roadblocks, and a tower of dead cloned E. coli bacteria, I serendipitously found that I could take a more technological approach to my research. I discovered a Python program called PyMOL that could be used to predict and visualize the resulting changes in proteins structure that can occur during cancerous mutations in DNA. It was through reading documentation about PyMOL, learning how to use Linux, and applying these lessons to my research, it was during this challenge that I found that I am meant to take a technological perspective on positively impacting the healthcare of community.</p>
+
+                  <p>During the past couple years, I have self-assessed my strengths and interest through experimenting and learning computer science and programming. I have perused FreeCodeCamp’s YoutTube videos, Harvard’s CS50, W3School, and countless hours on StackOverflow. Through these, I am constantly learning more about C, HTML, JavaScript, CSS, Flask, Python, Unity, C# and so much more to come. It is this journey of life-long learning that I hope to supplement my life and career with computer science and my life-science background to drive an impact in the HealthTech space.</p>
+              </article>
+
+
+              <a id='link' href="https://cs50.harvard.edu" target="_blank">Visit CS50: Introduction to Computer Science</a>
+          </div>
+          <article class='hobby_text'>
+              <p>
+                  This page will provide a brief yet detailed discussion about myself and some of the interesting things that I do. This website serves as a first-step project to understanding web pages. the intention is to start with a static webpage designed with HTML, CSS, and JavaScript. Use features from Bootstrap such as buttons and drop-down menus. Then, learn about Git and GitHub as a version control system to track and commit changes to this site.
+              </p>
+              <p>
+                  In the <b><i>Home</i></b> tab, you will see a few pictures of what I believe best defines who I am and what I am passionate about.
+              </p>
+              <p>
+                  In the <b><i>Volunteering</i></b> tab, I will list and describe all of my volunteer contributions to the communities I am part of and the activities I have done thus far which have crafted me into who I am today.
+              </p>
+              <p>
+                  In the <b><i>Hobbies</i></b> tab, I will do my very best to describe the unique hobbies I have maintained and picked-up throughout my childhood to today. some are niche, whereas some may be commonplace and well-known.
+              </p>
+              <p>
+                  Please feel free to click the buttons on the toolbar above to navigate to the pages mentioned!
+              </p>
+          </article>
+          
+      </div>
+</body>
+
+<Footer style="color:white; font-weight: bold;"?></Footer>
 
 </html>
